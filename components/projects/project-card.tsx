@@ -12,33 +12,47 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="relative p-6 max-w-sm bg-background border border-border rounded-lg">
-      <div className="relative w-full h-[200px]">
+    <div className="relative flex flex-col w-full h-full bg-background border border-border rounded-lg overflow-hidden">
+      {/* Image Container */}
+      <div className="relative w-full h-[200px] flex-shrink-0">
         <Image
-          className="rounded-lg border border-border object-cover"
+          className="object-cover"
           src={project.companyLogoImg}
-          alt="img"
+          alt={`${project.companyName} logo`}
           fill
         />
       </div>
-      <div className="pt-5 space-y-3">
-        <h5 className="text-2xl font-bold tracking-tight text-foreground">
+
+      {/* Content Container */}
+      <div className="flex flex-col flex-grow p-6">
+        {/* Title */}
+        <h5 className="text-xl font-bold tracking-tight text-foreground mb-3 line-clamp-2">
           {project.companyName}
         </h5>
-        <p className="line-clamp-3 font-normal text-muted-foreground">
+
+        {/* Description */}
+        <p className="text-sm font-normal text-muted-foreground mb-4 line-clamp-3 flex-grow">
           {project.shortDescription}
         </p>
-        <div className="flex gap-2 flex-wrap">
+
+        {/* Categories */}
+        <div className="flex gap-2 flex-wrap mb-4">
           <ChipContainer textArr={project.category} />
         </div>
-        <Link href={`/projects/${project.id}`}>
-          <Button variant={"default"} className="mt-2">
-            Read more
-            <Icons.chevronRight className="w-4 ml-1" />
-          </Button>
-        </Link>
+
+        {/* Button */}
+        <div className="mt-auto">
+          <Link href={`/projects/${project.id}`}>
+            <Button variant={"default"} className="w-full">
+              Read more
+              <Icons.chevronRight className="w-4 ml-1" />
+            </Button>
+          </Link>
+        </div>
       </div>
-      <div className="absolute bottom-4 right-4 p-3 rounded-full bg-background border border-border">
+
+      {/* Type Icon */}
+      <div className="absolute top-4 right-4 p-2 rounded-full bg-background/80 backdrop-blur-sm border border-border shadow-sm">
         {project.type === "Personal" ? (
           <Icons.userFill className="h-4 w-4" />
         ) : (
