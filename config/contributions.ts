@@ -7,25 +7,18 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "autogen",
+    repo: "base-web",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "Berkolaborasi di website baca manga (Laravel, Vue.js, Express, Redis).",
+    repoOwner: "mangaphase",
+    link: "https://github.com/mangaphase/base-web",
   },
   {
-    repo: "creativecommons",
+    repo: "course-program",
     contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
-  },
-  {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Berkolaborasi di website daftar kursus online Suvi Training Program.",
+    repoOwner: "suvi-course-program",
+    link: "https://github.com/suvi-course-program/course-program",
   },
 ];
 

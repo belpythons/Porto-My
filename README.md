@@ -135,4 +135,11 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+- Built by [Belva Pranama Sriwibowo](https://github.com/belpythons)
+
+## License
+
+- MIT © [Belva Pranama Sriwibowo](https://github.com/belpythons)
+- See [LICENSE](./LICENSE) for more info.
+
+**Built with ❤️ by [Belva Pranama Sriwibowo](https://github.com/belpythons)**

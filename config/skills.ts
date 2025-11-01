@@ -7,154 +7,137 @@ export interface skillsInterface {
   icon: any;
 }
 
+// Ganti 'Icons.code' dengan ikon yang lebih spesifik jika Anda menambahkannya
+// di 'components/common/icons.tsx'
+
 export const skillsUnsorted: skillsInterface[] = [
+  // Design
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
-    icon: Icons.nextjs,
-  },
-  {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+    name: "Figma",
+    description: "Desain UI/UX dan prototyping aplikasi web dan mobile.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.media,
   },
   {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
+    name: "Adobe Illustrator",
+    description: "Desain grafis vektor dan aset visual.",
+    rating: 3,
+    icon: Icons.media,
   },
   {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
+    name: "Adobe Photoshop",
+    description: "Editing gambar dan desain grafis raster.",
+    rating: 3,
+    icon: Icons.media,
   },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
-  },
-  {
-    name: "Javascript",
-    description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
-  },
+
+  // Frontend
   {
     name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    description: "Struktur fundamental untuk semua aplikasi web.",
+    rating: 5,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+    description: "Styling aplikasi web modern dan desain responsif.",
     rating: 4,
     icon: Icons.css3,
   },
   {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+    name: "Javascript",
+    description: "Bahasa inti untuk interaktivitas web sisi klien.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.javascript,
   },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
   {
     name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
+    description: "Framework CSS utility-first untuk desain cepat.",
+    rating: 4,
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
-  {
     name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    description: "Framework CSS untuk pengembangan web responsif.",
+    rating: 4,
     icon: Icons.bootstrap,
   },
   {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+    name: "React",
+    description: "Pelatihan web React.js dan Node.js dengan Express REST API.",
     rating: 2,
+    icon: Icons.react,
+  },
+  {
+    name: "Vue.js",
+    description: "Digunakan di frontend untuk proyek kolaborasi Mangaphase.",
+    rating: 3,
+    icon: Icons.javascript,
+  },
+  
+  // Backend & Database
+  {
+    name: "Node.js",
+    description: "Pelatihan backend menggunakan Express.js REST API.",
+    rating: 2,
+    icon: Icons.nodejs,
+  },
+  {
+    name: "express.js",
+    description: "Framework backend untuk Node.js, digunakan dalam pelatihan.",
+    rating: 2,
+    icon: Icons.express,
+  },
+  {
+    name: "PHP",
+    description: "Pengembangan web dinamis PHP native (Proyek PERPUS).",
+    rating: 4,
+    icon: Icons.nodejs,
+  },
+  {
+    name: "Laravel",
+    description: "Backend untuk proyek kolaborasi Mangaphase (rating 1).",
+    rating: 1,
+    icon: Icons.nestjs,
+  },
+  {
+    name: "Java",
+    description: "Bahasa pemrograman fundamental yang dipelajari.",
+    rating: 3,
+    icon: Icons.javascript,
+  },
+  {
+    name: "C++",
+    description: "Pemrograman sistem dan IoT dengan ESP32/Arduino.",
+    rating: 3,
+    icon: Icons.laptop,
+  },
+  {
+    name: "MySQL",
+    description: "Database relasional untuk proyek PHP dan OLW.",
+    rating: 4,
     icon: Icons.mysql,
   },
   {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+    name: "SQLite",
+    description: "Database file-based, dipelajari sebagai alternatif SQL.",
+    rating: 3,
+    icon: Icons.mysql,
+  },
+  {
+    name: "Prisma",
+    description: "ORM (Object-Relational Mapping) untuk Node.js.",
+    rating: 2,
+    icon: Icons.nodejs,
+  },
+
+  // Lainnya (MERN)
+  // Anda menyebut "MERN stack", jadi saya tambahkan MongoDB & Express (jika belum ada)
+  {
+    name: "MongoDB",
+    description: "Bagian dari MERN stack (NoSQL Database).",
+    rating: 2,
+    icon: Icons.mongodb,
   },
 ];
 
