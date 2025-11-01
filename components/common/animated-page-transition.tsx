@@ -7,7 +7,7 @@ interface AnimatedPageTransitionProps {
   children: ReactNode;
 }
 
-const pageVariants = {
+const pageVariants: Variants = {
   initial: {
     opacity: 0,
     y: 20,
