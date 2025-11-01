@@ -88,7 +88,7 @@ export const Projects: ProjectInterface[] = [
       {
         title: "Documantaries & Articles",
         description: "kumpulan referensi pembelajaran.",
-        imgArr: ["/projects/olw/Docs.png"], // GANTI PATH INI
+        imgArr: ["/projects/olw/docs.png"], // GANTI PATH INI
       },
       {
         title: "Forum Diskusi",
@@ -154,7 +154,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["HTML 5", "Tailwind CSS", "Javascript"],
     startDate: new Date("2024-08-01"), // GANTI TANGGAL INI
     endDate: new Date("2024-08-15"), // GANTI TANGGAL INI
-    companyLogoImg: "/projects/form-stitek/logo.png", // GANTI PATH INI
+    companyLogoImg: "/projects/form-stitek/logo-stitek.jpg", // GANTI PATH INI
     pagesInfoArr: [
       {
         title: "Formulir Peminjaman",
