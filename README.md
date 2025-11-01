@@ -1,29 +1,3 @@
-Proyek ini adalah sebuah **Templat Portofolio Developer Next.js 14**. Ini dirancang sebagai proyek *open-source* modern yang responsif dan dioptimalkan untuk SEO, ditujukan bagi para profesional seperti developer dan desainer untuk memamerkan keahlian, pengalaman, dan proyek mereka.
-
-**Fitur Utama:**
-
-  * **Timeline Pengalaman**: Menampilkan riwayat karier secara visual.
-  * **Etalase Proyek**: Menampilkan detail proyek teknis.
-  * **Mode Gelap/Terang**: Dukungan tema profesional.
-  * **Desain Responsif**: Optimal untuk semua perangkat.
-  * **Performa 100%**: Dioptimalkan untuk Core Web Vitals.
-  * **Siap SEO**: Termasuk *structured data* dan *meta tags*.
-
-**Tumpukan Teknologi (Tech Stack):**
-
-  * **Framework**: Next.js 14
-  * **Bahasa**: TypeScript
-  * **Styling**: Tailwind CSS & shadcn/ui
-  * **Animasi**: Framer Motion
-  * **Deployment**: Vercel
-
-Proyek ini awalnya dibuat oleh Naman Barkiya dan tampaknya dimodifikasi atau di-fork oleh Belva Pranama Sriwibowo, yang memegang lisensi MIT untuk versi ini.
-
------
-
-### README.md yang Diperbarui
-
-Berikut adalah konten `README.md` lengkap yang telah diperbarui dengan URL demo yang Anda tentukan. Bagian `## 🚀 Demo` telah diperbaiki:
 
 ````markdown
 # Next.js 14 Developer Portfolio Template
