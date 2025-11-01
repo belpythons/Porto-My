@@ -215,6 +215,83 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
+  {
+    id: "medduler-design-thinking",
+    companyName: "Medduler - Desain Aplikasi Penjadwalan Kesehatan Lansia",
+    type: "Professional", // Sesuai permintaan Anda (Proyek UAS)
+    category: ["Figma", "Design Thinking", "Human-Centered Design", "User Research", "Prototyping"],
+    shortDescription:
+      "Aplikasi penjadwalan kesehatan berbasis mobile yang membantu lansia mengelola jadwal konsultasi dokter dan pengingat minum obat secara mandiri dengan antarmuka yang ramah pengguna.",
+    websiteLink: "https://www.figma.com/proto/yDVsD36kDRfYLDDYfL5ccK/Untitled?node-id=123-2045&t=a1B1rzre0N76rSTz-1",
+    githubLink: "https://www.figma.com/design/yDVsD36kDRfYLDDYfL5ccK/Untitled?node-id=72-10&t=vFO3wN963CaYkNRQ-1", // Link ke file desain Figma
+    techStack: ["UI/UX Design", "Mobile App Design", "Health Tech", "Figma"],
+    startDate: new Date("2024-10-24"),
+    endDate: new Date("2024-12-11"),
+    companyLogoImg: "/projects/meduller/logo.png",
+    pagesInfoArr: [
+      {
+        title: "High-Fidelity Prototype", // GANTI JUDUL INI
+        description: "Contoh tampilan antarmuka aplikasi Medduler.", // GANTI DESKRIPSI INI
+        imgArr: ["/projects/meduller/gambar-1.png"], // GANTI PATH INI
+      },
+      {
+        title: "User Research (Persona)", // GANTI JUDUL INI
+        description: "Contoh persona pengguna yang dikembangkan selama riset.", // GANTI DESKRIPSI INI
+        imgArr: ["/projects/meduller/gambar-2.png"], // GANTI PATH INI
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Medduler adalah solusi digital untuk pengelolaan kesehatan lansia yang dirancang melalui pendekatan Human-Centered Design. Aplikasi ini lahir dari penelitian mendalam terhadap tantangan yang dihadapi lansia dalam mengingat jadwal kesehatan, keterbatasan mereka dengan teknologi, dan kebutuhan akan motivasi berkelanjutan.",
+        "Sebagai UI/UX Designer, saya bertanggung jawab dalam seluruh proses desain mulai dari riset pengguna (empathy mapping, persona creation, customer journey mapping), definisi masalah (How Might We, POV template), ideasi menggunakan SCAMPER method, hingga pembuatan prototype low-fidelity dan high-fidelity menggunakan Figma.",
+        "Proyek ini berfokus pada penciptaan pengalaman pengguna yang inklusif dengan mempertimbangkan keterbatasan fisik dan teknologi lansia. Desain antarmuka menggunakan font besar (Roboto dan Poppins), warna kontras (#F69DC9 pink dan #4CB8FF biru muda), navigasi sederhana, dan sistem pengingat yang personal. Aplikasi ini juga dilengkapi fitur motivasi berupa badge kesehatan, timeline aktivitas, artikel edukasi, dan integrasi dengan layanan BPJS untuk kemudahan administrasi medis."
+      ],
+      bullets: [
+        "Melakukan riset pengguna komprehensif dengan metode observasi langsung, wawancara semi-terstruktur, dan pembuatan 2 persona utama (Nenek Nurbaidah dan Kakek Hasan) untuk memahami kebutuhan dan tantangan lansia dalam mengelola kesehatan.",
+        "Mengimplementasikan Human-Centered Design melalui 5 tahap (Empathy, Define, Ideate, Prototype, Test) dengan menggunakan tools seperti Empathy Map, Customer Journey Map, How Might We Questions, dan SCAMPER Method.",
+        "Merancang antarmuka ramah lansia dengan fokus pada aksesibilitas: font besar, kontras warna tinggi, navigasi intuitif, dan ikon visual yang jelas untuk mengatasi keterbatasan teknologi pengguna.",
+        "Mengembangkan 8 fitur utama termasuk kalender digital dengan notifikasi otomatis, sistem badge penghargaan, timeline kesehatan, artikel edukasi, pencarian dokter/obat, dan integrasi BPJS.",
+        "Melakukan user testing dengan target pengguna (lansia) untuk validasi desain dan iterasi berdasarkan feedback, memastikan aplikasi benar-benar mudah digunakan dan sesuai kebutuhan mereka."
+      ],
+    },
+  }, 
+  {
+    id: "desain-asteric-branding",
+    companyName: "Desain Branding Toko Motor Listrik Asteric",
+    type: "Professional", // Proyek UJK BNSP
+    category: ["Desain Grafis", "Branding", "Desain Promosi"],
+    shortDescription:
+      "Mengembangkan identitas visual lengkap untuk Toko Motor Listrik Asteric, termasuk logo, flyer promosi, dan desain merchandise untuk memperkuat branding.",
+    websiteLink: "https://drive.google.com/file/d/1ci9rO9Emh4iSldGYCtxxsTl_ivFXoSY2/view", // Link Flyer
+    githubLink: "https://drive.google.com/file/d/1O1OTOynEEAOfIQzJx7UP10IJr_xoFKYS/view", // Link Guidelines
+    techStack: ["Adobe Illustrator", "Adobe Photoshop"],
+    startDate: new Date("2024-09-30"),
+    endDate: new Date("2024-10-07"),
+    companyLogoImg: "/projects/asteric/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Mockup Merchandise",
+        description: "Mockup realistis untuk kaos, topi, dan goodie bag.",
+        imgArr: ["/projects/asteric/gambar-1.png"], // GANTI PATH INI
+      },
+      {
+        title: "Flyer Promosi A5",
+        description: "Desain flyer promosi dua sisi (bolak-balik).",
+        imgArr: ["/projects/asteric/gambar-2.png"], // GANTI PATH INI
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Proyek ini bertujuan untuk membangun identitas visual (brand identity) yang kuat bagi Toko Motor Listrik Asteric, sebuah brand yang berfokus pada mobilitas modern dan ramah lingkungan. Klien membutuhkan satu set aset desain yang kohesif untuk peluncuran brand, mencakup logo, materi promosi, dan merchandise.",
+        "Peran saya sebagai desainer grafis adalah menerjemahkan design brief menjadi aset visual yang fungsional dan menarik. Tanggung jawab saya meliputi riset visual, pengembangan konsep logo, desain flyer promosi dua sisi (A5), serta pembuatan mockup merchandise (kaos, topi, goodie bag) yang siap digunakan untuk kebutuhan branding digital dan cetak."
+      ],
+      bullets: [
+        "Mendesain logo utama yang secara filosofis menggabungkan ikon baterai (mewakili sumber energi listrik dan efisiensi) dan gear (mewakili roda/mekanisme motor), untuk menciptakan simbol modern yang berfokus pada inovasi dan teknologi.",
+        "Mengimplementasikan palet warna yang ditentukan (Biru Tua, Kuning-Oranye, Perak) dan gaya desain minimalis untuk mencerminkan pesan kunci 'Energi Bersih & Gaya Modern' sesuai arahan brief.",
+        "Menghasilkan deliverables lengkap sesuai permintaan klien, termasuk logo dalam format vektor/raster, flyer promosi A5 bolak-balik, dan mockup realistis untuk berbagai merchandise (kaos, topi, goodie bag)."
+      ],
+    },
+  }, 
 ];
 
 export const featuredProjects = Projects.slice(0, 3);

@@ -56,13 +56,16 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
   | "Framer Motion"
   | "C++"
-  | "Arduino";
+  | "Arduino"
+  | "UI/UX Design"
+  | "Mobile App Design"
+  | "Health Tech"
+  | "Adobe Illustrator"
+  | "Adobe Photoshop";
 
 export type ValidCategory =
   | "Full Stack"
@@ -72,7 +75,15 @@ export type ValidCategory =
   | "Web Dev"
   | "Mobile Dev"
   | "3D Modeling"
-  | "IoT";
+  | "IoT"
+  | "Figma"
+  | "Design Thinking"
+  | "Human-Centered Design"
+  | "User Research"
+  | "Prototyping"
+  | "Desain Grafis"
+  | "Branding"
+  | "Desain Promosi";
 
 export type ValidExpType = "Personal" | "Professional";
 
