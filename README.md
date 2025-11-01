@@ -1,3 +1,31 @@
+Proyek ini adalah sebuah **Templat Portofolio Developer Next.js 14**. Ini dirancang sebagai proyek *open-source* modern yang responsif dan dioptimalkan untuk SEO, ditujukan bagi para profesional seperti developer dan desainer untuk memamerkan keahlian, pengalaman, dan proyek mereka.
+
+**Fitur Utama:**
+
+  * **Timeline Pengalaman**: Menampilkan riwayat karier secara visual.
+  * **Etalase Proyek**: Menampilkan detail proyek teknis.
+  * **Mode Gelap/Terang**: Dukungan tema profesional.
+  * **Desain Responsif**: Optimal untuk semua perangkat.
+  * **Performa 100%**: Dioptimalkan untuk Core Web Vitals.
+  * **Siap SEO**: Termasuk *structured data* dan *meta tags*.
+
+**Tumpukan Teknologi (Tech Stack):**
+
+  * **Framework**: Next.js 14
+  * **Bahasa**: TypeScript
+  * **Styling**: Tailwind CSS & shadcn/ui
+  * **Animasi**: Framer Motion
+  * **Deployment**: Vercel
+
+Proyek ini awalnya dibuat oleh Naman Barkiya dan tampaknya dimodifikasi atau di-fork oleh Belva Pranama Sriwibowo, yang memegang lisensi MIT untuk versi ini.
+
+-----
+
+### README.md yang Diperbarui
+
+Berikut adalah konten `README.md` lengkap yang telah diperbarui dengan URL demo yang Anda tentukan. Bagian `## 🚀 Demo` telah diperbaiki:
+
+````markdown
 # Next.js 14 Developer Portfolio Template
 
 A modern, responsive, and SEO-optimized **Next.js 14 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
@@ -19,7 +47,7 @@ A modern, responsive, and SEO-optimized **Next.js 14 portfolio template** design
 
 ## 🚀 Demo
 
-View the live demo at [https://nbarkiya.xyz/]([https://nbarkiya.xyz](https://porto-my-git-main-rius-projects-71c87303.vercel.app/))
+View the live demo at [https://porto-my-git-main-rius-projects-71c87303.vercel.app/](https://porto-my-git-main-rius-projects-71c87303.vercel.app/)
 
 https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
 
@@ -40,44 +68,44 @@ To get started with your own portfolio website:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
+   git clone [https://github.com/namanbarkiya/minimal-next-portfolio.git](https://github.com/namanbarkiya/minimal-next-portfolio.git) my-portfolio
    cd my-portfolio
-   ```
+````
 
-2. Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
+2.  Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
 
-3. Install dependencies:
+3.  Install dependencies:
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-4. Start the development server:
+4.  Start the development server:
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
+5.  Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
 
 ## 🎨 Customization
 
 The portfolio is designed to be easily customizable:
 
-1. **Personal Information**: Update your personal info in `config/site.ts`
-2. **Skills**: Add your skills in `config/skills.ts`
-3. **Projects**: Add your technical projects in `config/projects.ts`
-4. **Experience**: Customize your professional experience in `config/experience.ts`
-5. **Contributions**: Showcase your contributions in `config/contributions.ts`
-6. **Colors & Theme**: Modify the theme in `tailwind.config.js`
+1.  **Personal Information**: Update your personal info in `config/site.ts`
+2.  **Skills**: Add your skills in `config/skills.ts`
+3.  **Projects**: Add your technical projects in `config/projects.ts`
+4.  **Experience**: Customize your professional experience in `config/experience.ts`
+5.  **Contributions**: Showcase your contributions in `config/contributions.ts`
+6.  **Colors & Theme**: Modify the theme in `tailwind.config.js`
 
 ## 🌟 Features In Detail
 
@@ -103,15 +131,12 @@ Built-in SEO features with proper meta tags, structured data, and semantic HTML.
 
 ## 📱 Performance and Responsiveness
 
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
-
 This template is optimized for:
 
-- 100% Lighthouse score
-- Excellent Core Web Vitals metrics
-- Responsive design across all device sizes
-- Fast loading times with proper image optimization
+  - 100% Lighthouse score
+  - Excellent Core Web Vitals metrics
+  - Responsive design across all device sizes
+  - Fast loading times with proper image optimization
 
 ## 📄 License
 
@@ -119,9 +144,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgements
 
-- Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/namanbarkiya)
-- Icons from [Lucide](https://lucide.dev/)
+  - Design inspired by modern portfolio best practices
+  - Built by [Naman Barkiya](https://github.com/namanbarkiya)
+  - Icons from [Lucide](https://lucide.dev/)
 
 ## 💻 Deploy on Vercel
 
@@ -131,15 +156,15 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
+[](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
 
----
+-----
 
-- Built by [Belva Pranama Sriwibowo](https://github.com/belpythons)
+  - Built by [Belva Pranama Sriwibowo](https://github.com/belpythons)
 
 ## License
 
-- MIT © [Belva Pranama Sriwibowo](https://github.com/belpythons)
-- See [LICENSE](./LICENSE) for more info.
+  - MIT © [Belva Pranama Sriwibowo](https://github.com/belpythons)
+  - See [LICENSE](./LICENSE) for more info.
 
 **Built with ❤️ by [Belva Pranama Sriwibowo](https://github.com/belpythons)**
