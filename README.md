@@ -1,144 +1,61 @@
+# Porto-My
 
-````markdown
-# Next.js 14 Developer Portfolio Template
+Porto-My adalah portofolio pribadi saya, Anda dapat melihat portofolio [di sini](https://porto-my.vercel.app/).
 
-A modern, responsive, and SEO-optimized **Next.js 14 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
+## Ikhtisar (Overview)
 
-## ✨ Key Features
+Ini adalah portofolio pribadi saya, dibangun menggunakan Next.js 13 dengan App Router dan TypeScript. Portofolio ini menampilkan proyek, pengalaman, dan keahlian saya.
 
-- **Professional Experience Timeline**: Showcase your career journey with a visually appealing timeline
-- **Project Showcase**: Display your technical projects with detailed information and live demos
-- **Dark/Light Mode**: Professional appearance with theme support
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **100% Performance Score**: Fully optimized for speed and Core Web Vitals
-- **SEO-Ready**: Structured data, meta tags, and optimized content
-- **Modern Tech Stack**: Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui
-- **Easy Customization**: Well-organized code structure with minimal effort required
-- **Animations**: Subtle animations for engaging user experience
-- **Analytics Integration**: Ready for Google Analytics tracking
-- **Contact Form**: Functional contact form with validation
-- **Open Source**: Free to use and modify for your personal portfolio
+Anda juga dapat melihat ikhtisar proyek yang lebih rinci [di sini](./information/overview.md).
 
-## 🚀 Demo
+### Fitur
 
-View the live demo at [https://porto-my-git-main-rius-projects-71c87303.vercel.app/](https://porto-my-git-main-rius-projects-71c87303.vercel.app/)
+-   **App Router**: Menggunakan App Router baru dari Next.js 13 untuk *routing* dan *layout* yang terstruktur.
+-   **Dark Mode**: Tombol *toggle* untuk mode terang dan gelap.
+-   **Animasi**: Menggunakan `framer-motion` untuk transisi halaman dan animasi komponen.
+-   **Konten Dinamis**: Menampilkan proyek dan pengalaman secara dinamis.
+-   **Formulir Kontak**: Formulir kontak fungsional dengan validasi sisi klien dan sisi server menggunakan `zod`.
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+## Struktur Proyek
 
-## 🛠️ Tech Stack
+Proyek ini mengikuti struktur yang direkomendasikan oleh Next.js App Router.
 
-- **Framework**: [Next.js 14](https://nextjs.org/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Form Handling**: Server actions with validation
-- **Analytics**: Google Analytics + Vercel Analytics
-- **Deployment**: [Vercel](https://vercel.com)
+Porto-My/ ├── app/ │ ├── (root)/ # Grup rute untuk halaman utama │ │ ├── projects/ # Halaman daftar & detail proyek │ │ ├── experience/ # Halaman pengalaman (timeline) │ │ ├── skills/ # Halaman keahlian │ │ ├── resume/ # Halaman resume │ │ ├── contact/ # Halaman formulir kontak │ │ └── page.tsx # Halaman beranda │ ├── api/ # Rute API (misal: /api/contact) │ ├── layout.tsx # Root layout │ └── globals.css # File CSS global ├── components/ │ ├── common/ # Komponen umum (Navbar, Footer, dll.) │ ├── forms/ # Komponen formulir (ContactForm) │ ├── ui/ # Komponen UI dari Shadcn (Button, Card, dll.) │ └── ... # Komponen spesifik halaman lainnya ├── config/ # File konfigurasi (data proyek, navigasi, dll.) ├── hooks/ # Kustom React Hooks ├── lib/ # Fungsi utilitas (misal: cn dari clsx) ├── providers/ # Penyedia konteks (Tema, Animasi) └── public/ # Aset statis (gambar, ikon, font)
 
-## 🔧 Getting Started
 
-To get started with your own portfolio website:
+Anda juga dapat melihat struktur proyek yang lebih rinci [di sini](./information/structure.md).
 
-1. Clone this repository:
+## Tumpukan Teknologi (Tech Stack)
 
-   ```bash
-   git clone [https://github.com/namanbarkiya/minimal-next-portfolio.git](https://github.com/namanbarkiya/minimal-next-portfolio.git) my-portfolio
-   cd my-portfolio
-````
+-   [Next.js](https://nextjs.org/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Shadcn/UI](https://ui.shadcn.com/)
+-   [Framer Motion](https://www.framer.com/motion/)
+-   [React Hook Form](https://react-hook-form.com/)
+-   [Zod](https://zod.dev/)
+-   [Resend](https://resend.com/)
 
-2.  Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
+## Memulai (Getting Started)
 
-3.  Install dependencies:
+Untuk memulai proyek ini, jalankan:
 
-    ```bash
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
-    ```
+```bash
+pnpm install
+# or
+npm install
+# or
+yarn install
+Selanjutnya, jalankan server pengembangan:
 
-4.  Start the development server:
+Bash
 
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    ```
+pnpm dev
+# or
+npm run dev
+# or
+yarn dev
+Buka http://localhost:3000 dengan browser Anda untuk melihat hasilnya.
 
-5.  Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
-
-## 🎨 Customization
-
-The portfolio is designed to be easily customizable:
-
-1.  **Personal Information**: Update your personal info in `config/site.ts`
-2.  **Skills**: Add your skills in `config/skills.ts`
-3.  **Projects**: Add your technical projects in `config/projects.ts`
-4.  **Experience**: Customize your professional experience in `config/experience.ts`
-5.  **Contributions**: Showcase your contributions in `config/contributions.ts`
-6.  **Colors & Theme**: Modify the theme in `tailwind.config.js`
-
-## 🌟 Features In Detail
-
-### Professional Experience Timeline
-
-An interactive, animated timeline that showcases your career journey with expandable sections for details about each position and company.
-
-### Project Showcase
-
-Display your technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
-
-### Skills Showcase
-
-Visually represent your technical and soft skills with customizable ratings and categories.
-
-### Contact Form Integration
-
-A ready-to-use contact form that can connect to various backend services.
-
-### SEO Optimization
-
-Built-in SEO features with proper meta tags, structured data, and semantic HTML.
-
-## 📱 Performance and Responsiveness
-
-This template is optimized for:
-
-  - 100% Lighthouse score
-  - Excellent Core Web Vitals metrics
-  - Responsive design across all device sizes
-  - Fast loading times with proper image optimization
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgements
-
-  - Design inspired by modern portfolio best practices
-  - Built by [Naman Barkiya](https://github.com/namanbarkiya)
-  - Icons from [Lucide](https://lucide.dev/)
-
-## 💻 Deploy on Vercel
-
-The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🌟 Star History
-
-[](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
-
------
-
-  - Built by [Belva Pranama Sriwibowo](https://github.com/belpythons)
-
-## License
-
-  - MIT © [Belva Pranama Sriwibowo](https://github.com/belpythons)
-  - See [LICENSE](./LICENSE) for more info.
-
-**Built with ❤️ by [Belva Pranama Sriwibowo](https://github.com/belpythons)**
+Lisensi
+Proyek ini dilisensikan di bawah Lisensi MIT.
